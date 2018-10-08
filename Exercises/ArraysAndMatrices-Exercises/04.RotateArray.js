@@ -3,7 +3,7 @@ function rotateArray(arr) {
     arr.pop();
     for(let i = 0; i < rotation; i++){
         let number = arr.pop();
-        arr.unshift(number)
+        arr.unshift(number);
     }
 
     console.log(arr.join(' '));
